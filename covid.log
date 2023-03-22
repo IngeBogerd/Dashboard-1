@@ -1,0 +1,7 @@
+[INFO] - 2023-03-22 13:17:41,841 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.83:5000 in _internal:224
+[INFO] - 2023-03-22 13:17:41,841 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-22 13:17:43,589 : 172.31.128.1 - - [22/Mar/2023 13:17:43] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-22 13:17:46,521 : 172.31.128.1 - - [22/Mar/2023 13:17:46] "GET / HTTP/1.1" 200 - in _internal:224
