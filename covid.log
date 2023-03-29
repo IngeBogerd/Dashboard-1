@@ -238,3 +238,1005 @@ KeyError: 'Countries'
 [INFO] - 2023-03-29 12:53:11,008 : 172.31.128.1 - - [29/Mar/2023 12:53:11] "GET /summary HTTP/1.1" 200 - in _internal:224
 [INFO] - 2023-03-29 12:53:12,414 : 172.31.128.1 - - [29/Mar/2023 12:53:12] "GET / HTTP/1.1" 200 - in _internal:224
 [INFO] - 2023-03-29 12:53:13,320 : 172.31.128.1 - - [29/Mar/2023 12:53:13] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:18:48,837 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:18:48,837 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:18:49,512 : 172.31.128.1 - - [29/Mar/2023 13:18:49] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:18:49,731 : 172.31.128.1 - - [29/Mar/2023 13:18:49] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:18:50,690 : 172.31.128.1 - - [29/Mar/2023 13:18:50] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:18:51,608 : 172.31.128.1 - - [29/Mar/2023 13:18:51] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:18:53,569 : 172.31.128.1 - - [29/Mar/2023 13:18:53] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:18:54,411 : 172.31.128.1 - - [29/Mar/2023 13:18:54] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:24:40,803 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:24:40,803 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:24:41,465 : 172.31.128.1 - - [29/Mar/2023 13:24:41] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:24:42,290 : 172.31.128.1 - - [29/Mar/2023 13:24:42] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[ERROR] - 2023-03-29 13:24:43,586 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:24:43,601 : 172.31.128.1 - - [29/Mar/2023 13:24:43] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:24:43,879 : 172.31.128.1 - - [29/Mar/2023 13:24:43] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:24:44,926 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:24:44,999 : 172.31.128.1 - - [29/Mar/2023 13:24:44] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:24:45,408 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:24:45,413 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:24:45,416 : 172.31.128.1 - - [29/Mar/2023 13:24:45] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:24:55,090 : 172.31.128.1 - - [29/Mar/2023 13:24:55] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:24:56,013 : 172.31.128.1 - - [29/Mar/2023 13:24:56] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:24:56,488 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:24:56,536 : 172.31.128.1 - - [29/Mar/2023 13:24:56] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:26:06,332 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:26:06,333 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:26:06,931 : 172.31.128.1 - - [29/Mar/2023 13:26:06] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:26:07,536 : 172.31.128.1 - - [29/Mar/2023 13:26:07] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:26:08,092 : 172.31.128.1 - - [29/Mar/2023 13:26:08] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:26:08,116 : 172.31.128.1 - - [29/Mar/2023 13:26:08] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:26:08,186 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:26:08,198 : 172.31.128.1 - - [29/Mar/2023 13:26:08] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:26:08,975 : 172.31.128.1 - - [29/Mar/2023 13:26:08] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:26:09,188 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:26:09,191 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:26:09,194 : 172.31.128.1 - - [29/Mar/2023 13:26:09] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:26:09,287 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:26:09,288 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:26:09,289 : 172.31.128.1 - - [29/Mar/2023 13:26:09] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:26:09,386 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:26:09,388 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:26:09,395 : 172.31.128.1 - - [29/Mar/2023 13:26:09] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:26:28,835 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:26:28,837 : 172.31.128.1 - - [29/Mar/2023 13:26:28] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:26:39,895 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:26:39,896 : 172.31.128.1 - - [29/Mar/2023 13:26:39] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:27:24,979 : 172.31.128.1 - - [29/Mar/2023 13:27:24] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:27:26,609 : 172.31.128.1 - - [29/Mar/2023 13:27:26] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:27:26,679 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:27:26,766 : 172.31.128.1 - - [29/Mar/2023 13:27:26] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:27:34,669 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:27:34,669 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:27:35,270 : 172.31.128.1 - - [29/Mar/2023 13:27:35] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:27:35,883 : 172.31.128.1 - - [29/Mar/2023 13:27:35] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:27:36,484 : 172.31.128.1 - - [29/Mar/2023 13:27:36] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:27:37,391 : 172.31.128.1 - - [29/Mar/2023 13:27:37] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:27:40,024 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:27:40,120 : 172.31.128.1 - - [29/Mar/2023 13:27:40] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:27:40,250 : 172.31.128.1 - - [29/Mar/2023 13:27:40] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[ERROR] - 2023-03-29 13:27:40,930 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:27:40,931 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:27:40,934 : 172.31.128.1 - - [29/Mar/2023 13:27:40] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:27:41,070 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:27:41,071 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:27:41,073 : 172.31.128.1 - - [29/Mar/2023 13:27:41] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:27:41,374 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:27:41,376 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:27:41,378 : 172.31.128.1 - - [29/Mar/2023 13:27:41] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:27:49,392 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:27:49,669 : 172.31.128.1 - - [29/Mar/2023 13:27:49] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:28:46,172 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:28:46,172 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:28:46,774 : 172.31.128.1 - - [29/Mar/2023 13:28:46] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:28:47,318 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 48, in serve_summary_new
+    json_template = json.load(open("templates/new.json"))
+FileNotFoundError: [Errno 2] No such file or directory: 'templates/new.json'
+[INFO] - 2023-03-29 13:28:47,349 : 172.31.128.1 - - [29/Mar/2023 13:28:47] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:28:47,468 : 172.31.128.1 - - [29/Mar/2023 13:28:47] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[ERROR] - 2023-03-29 13:28:47,968 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 48, in serve_summary_new
+    json_template = json.load(open("templates/new.json"))
+FileNotFoundError: [Errno 2] No such file or directory: 'templates/new.json'
+[INFO] - 2023-03-29 13:28:47,969 : 172.31.128.1 - - [29/Mar/2023 13:28:47] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:28:48,077 : 172.31.128.1 - - [29/Mar/2023 13:28:48] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:28:48,295 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:28:48,509 : 172.31.128.1 - - [29/Mar/2023 13:28:48] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:28:49,180 : 172.31.128.1 - - [29/Mar/2023 13:28:49] "GET /summary HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:28:49,380 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:28:49,381 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:28:49,383 : 172.31.128.1 - - [29/Mar/2023 13:28:49] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:28:51,051 : 172.31.128.1 - - [29/Mar/2023 13:28:51] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:28:51,332 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 48, in serve_summary_new
+    json_template = json.load(open("templates/new.json"))
+FileNotFoundError: [Errno 2] No such file or directory: 'templates/new.json'
+[INFO] - 2023-03-29 13:28:51,335 : 172.31.128.1 - - [29/Mar/2023 13:28:51] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:28:51,890 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:28:51,892 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:28:51,894 : 172.31.128.1 - - [29/Mar/2023 13:28:51] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:28:51,969 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:28:51,970 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:28:51,975 : 172.31.128.1 - - [29/Mar/2023 13:28:51] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:30:35,020 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:30:35,021 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:30:35,824 : 172.31.128.1 - - [29/Mar/2023 13:30:35] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:30:36,629 : 172.31.128.1 - - [29/Mar/2023 13:30:36] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:30:37,551 : 172.31.128.1 - - [29/Mar/2023 13:30:37] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:30:37,563 : 172.31.128.1 - - [29/Mar/2023 13:30:37] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:30:37,775 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:30:37,979 : 172.31.128.1 - - [29/Mar/2023 13:30:37] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:30:38,683 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:38,686 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:30:38,698 : 172.31.128.1 - - [29/Mar/2023 13:30:38] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:39,128 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:39,129 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:30:39,179 : 172.31.128.1 - - [29/Mar/2023 13:30:39] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:39,200 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:30:39,201 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:30:39,203 : 172.31.128.1 - - [29/Mar/2023 13:30:39] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:40,073 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:40,083 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:30:40,087 : 172.31.128.1 - - [29/Mar/2023 13:30:40] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:30:40,453 : 172.31.128.1 - - [29/Mar/2023 13:30:40] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:30:41,085 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:41,090 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:30:41,167 : 172.31.128.1 - - [29/Mar/2023 13:30:41] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:41,624 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:41,667 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:30:41,669 : 172.31.128.1 - - [29/Mar/2023 13:30:41] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:41,696 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:30:41,725 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:30:41,728 : 172.31.128.1 - - [29/Mar/2023 13:30:41] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:30:41,787 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:30:41,793 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:30:41,795 : 172.31.128.1 - - [29/Mar/2023 13:30:41] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:30:42,726 : 172.31.128.1 - - [29/Mar/2023 13:30:42] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:30:50,075 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:30:50,239 : 172.31.128.1 - - [29/Mar/2023 13:30:50] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:30:56,346 : 172.31.128.1 - - [29/Mar/2023 13:30:56] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:31:01,902 : 172.31.128.1 - - [29/Mar/2023 13:31:01] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:31:06,760 : 172.31.128.1 - - [29/Mar/2023 13:31:06] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:31:07,704 : 172.31.128.1 - - [29/Mar/2023 13:31:07] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:31:07,791 : 172.31.128.1 - - [29/Mar/2023 13:31:07] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:31:07,912 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:31:08,199 : 172.31.128.1 - - [29/Mar/2023 13:31:08] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:31:08,766 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:31:08,767 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:31:08,768 : 172.31.128.1 - - [29/Mar/2023 13:31:08] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:32:22,598 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:32:22,599 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:32:23,154 : 172.31.128.1 - - [29/Mar/2023 13:32:23] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:23,371 : 172.31.128.1 - - [29/Mar/2023 13:32:23] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:32:24,508 : 172.31.128.1 - - [29/Mar/2023 13:32:24] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:24,729 : 172.31.128.1 - - [29/Mar/2023 13:32:24] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:24,797 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:32:25,168 : 172.31.128.1 - - [29/Mar/2023 13:32:25] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:25,741 : 172.31.128.1 - - [29/Mar/2023 13:32:25] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:32:25,977 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:25,979 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:32:25,985 : 172.31.128.1 - - [29/Mar/2023 13:32:25] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:25,995 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:25,996 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:26,002 : 172.31.128.1 - - [29/Mar/2023 13:32:26] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:26,172 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:32:26,184 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:32:26,185 : 172.31.128.1 - - [29/Mar/2023 13:32:26] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:26,808 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:26,810 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:26,817 : 172.31.128.1 - - [29/Mar/2023 13:32:26] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:26,883 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:26,893 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[ERROR] - 2023-03-29 13:32:26,892 : An error has occurred: HTTP status 429 in covid:55
+[INFO] - 2023-03-29 13:32:26,894 : 172.31.128.1 - - [29/Mar/2023 13:32:26] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:26,896 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:32:26,898 : 172.31.128.1 - - [29/Mar/2023 13:32:26] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:32:48,190 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:32:48,190 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:32:48,802 : 172.31.128.1 - - [29/Mar/2023 13:32:48] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:49,287 : 172.31.128.1 - - [29/Mar/2023 13:32:49] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:32:50,178 : 172.31.128.1 - - [29/Mar/2023 13:32:50] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:50,188 : 172.31.128.1 - - [29/Mar/2023 13:32:50] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:32:50,383 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:32:50,690 : 172.31.128.1 - - [29/Mar/2023 13:32:50] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:32:51,387 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:51,388 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:51,396 : 172.31.128.1 - - [29/Mar/2023 13:32:51] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:51,563 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:51,564 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:32:51,566 : 172.31.128.1 - - [29/Mar/2023 13:32:51] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:51,592 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:32:51,593 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:32:51,595 : 172.31.128.1 - - [29/Mar/2023 13:32:51] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:52,173 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:52,174 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:52,176 : 172.31.128.1 - - [29/Mar/2023 13:32:52] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:52,937 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:52,938 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:52,939 : 172.31.128.1 - - [29/Mar/2023 13:32:52] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:32:53,469 : 172.31.128.1 - - [29/Mar/2023 13:32:53] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:32:54,489 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:32:54,492 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:32:54,496 : 172.31.128.1 - - [29/Mar/2023 13:32:54] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:54,584 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:54,585 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:32:54,587 : 172.31.128.1 - - [29/Mar/2023 13:32:54] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:32:54,601 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:32:54,602 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:32:54,604 : 172.31.128.1 - - [29/Mar/2023 13:32:54] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:32:55,492 : 172.31.128.1 - - [29/Mar/2023 13:32:55] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:22,392 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:34:22,392 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:34:23,157 : 172.31.128.1 - - [29/Mar/2023 13:34:23] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:23,546 : 172.31.128.1 - - [29/Mar/2023 13:34:23] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:34:24,763 : 172.31.128.1 - - [29/Mar/2023 13:34:24] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:24,876 : 172.31.128.1 - - [29/Mar/2023 13:34:24] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:24,881 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:34:25,177 : 172.31.128.1 - - [29/Mar/2023 13:34:25] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:34:25,795 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:34:25,796 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:34:25,801 : 172.31.128.1 - - [29/Mar/2023 13:34:25] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:34:25,807 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:34:25,808 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:34:25,809 : 172.31.128.1 - - [29/Mar/2023 13:34:25] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:34:26,010 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:34:26,012 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 77, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:34:26,014 : 172.31.128.1 - - [29/Mar/2023 13:34:26] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:34:57,386 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:34:57,387 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:34:57,969 : 172.31.128.1 - - [29/Mar/2023 13:34:57] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:34:58,182 : 172.31.128.1 - - [29/Mar/2023 13:34:58] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:34:59,300 : 172.31.128.1 - - [29/Mar/2023 13:34:59] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:59,474 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:34:59,686 : 172.31.128.1 - - [29/Mar/2023 13:34:59] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:34:59,702 : 172.31.128.1 - - [29/Mar/2023 13:34:59] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:35:00,490 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:00,493 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:35:00,496 : 172.31.128.1 - - [29/Mar/2023 13:35:00] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:00,687 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:00,688 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:35:00,689 : 172.31.128.1 - - [29/Mar/2023 13:35:00] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:00,694 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:35:00,698 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 78, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:35:00,699 : 172.31.128.1 - - [29/Mar/2023 13:35:00] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:35:00,832 : 172.31.128.1 - - [29/Mar/2023 13:35:00] "GET / HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:35:01,828 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:35:01,829 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 78, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:35:01,830 : 172.31.128.1 - - [29/Mar/2023 13:35:01] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:01,880 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:01,881 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:35:01,883 : 172.31.128.1 - - [29/Mar/2023 13:35:01] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:01,895 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:01,896 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:35:01,907 : 172.31.128.1 - - [29/Mar/2023 13:35:01] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:35:46,306 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 13:35:46,306 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 13:35:46,517 : 172.31.128.1 - - [29/Mar/2023 13:35:46] "[33mOPTIONS * HTTP/1.1[0m" 404 - in _internal:224
+[INFO] - 2023-03-29 13:35:46,618 : 172.31.128.1 - - [29/Mar/2023 13:35:46] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:35:46,925 : 172.31.128.1 - - [29/Mar/2023 13:35:46] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:35:47,640 : 172.31.128.1 - - [29/Mar/2023 13:35:47] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 13:35:47,985 : 172.31.128.1 - - [29/Mar/2023 13:35:47] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:35:48,070 : 172.31.128.1 - - [29/Mar/2023 13:35:48] "GET /new HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 13:35:48,080 : Serve Dutch Data in covid:50
+[INFO] - 2023-03-29 13:35:48,586 : 172.31.128.1 - - [29/Mar/2023 13:35:48] "GET /netherlands HTTP/1.1" 200 - in _internal:224
+[ERROR] - 2023-03-29 13:35:48,779 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:48,788 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[ERROR] - 2023-03-29 13:35:48,788 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:48,793 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:35:48,792 : 172.31.128.1 - - [29/Mar/2023 13:35:48] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[INFO] - 2023-03-29 13:35:48,795 : 172.31.128.1 - - [29/Mar/2023 13:35:48] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:48,799 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:35:48,800 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 78, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:35:48,802 : 172.31.128.1 - - [29/Mar/2023 13:35:48] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:49,802 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:49,804 : Exception on /new [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 54, in serve_summary_new
+    for key in json_data["Global"]:
+KeyError: 'Global'
+[INFO] - 2023-03-29 13:35:49,806 : 172.31.128.1 - - [29/Mar/2023 13:35:49] "[35m[1mGET /new HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:49,870 : An error has occurred: HTTP status 429 in covid:32
+[ERROR] - 2023-03-29 13:35:49,895 : Exception on /summary [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 36, in serve_summary
+    json_template["data"]["values"] = json_data["Countries"]
+KeyError: 'Countries'
+[INFO] - 2023-03-29 13:35:49,919 : 172.31.128.1 - - [29/Mar/2023 13:35:49] "[35m[1mGET /summary HTTP/1.1[0m" 500 - in _internal:224
+[ERROR] - 2023-03-29 13:35:50,087 : An error has occurred: HTTP status 429 in covid:55
+[ERROR] - 2023-03-29 13:35:50,088 : Exception on /netherlands [GET] in app:1741
+Traceback (most recent call last):
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/Dashboard-test-git/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "main.py", line 78, in serve_netherlands_history
+    json_template["data"]["values"] = json_data["data"]
+KeyError: 'data'
+[INFO] - 2023-03-29 13:35:50,090 : 172.31.128.1 - - [29/Mar/2023 13:35:50] "[35m[1mGET /netherlands HTTP/1.1[0m" 500 - in _internal:224
