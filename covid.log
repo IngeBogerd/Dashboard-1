@@ -172,3 +172,69 @@ KeyError: 'Countries'
 [INFO] - 2023-03-29 12:33:56,204 : 172.31.128.1 - - [29/Mar/2023 12:33:56] "GET /summary HTTP/1.1" 200 - in _internal:224
 [INFO] - 2023-03-29 12:33:59,478 : 172.31.128.1 - - [29/Mar/2023 12:33:59] "GET / HTTP/1.1" 200 - in _internal:224
 [INFO] - 2023-03-29 12:34:00,542 : 172.31.128.1 - - [29/Mar/2023 12:34:00] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:44:10,386 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:44:10,386 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:44:10,958 : 172.31.128.1 - - [29/Mar/2023 12:44:10] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:44:11,175 : 172.31.128.1 - - [29/Mar/2023 12:44:11] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:44:12,160 : 172.31.128.1 - - [29/Mar/2023 12:44:12] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:44:12,906 : 172.31.128.1 - - [29/Mar/2023 12:44:12] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:44:17,858 : 172.31.128.1 - - [29/Mar/2023 12:44:17] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:44:18,653 : 172.31.128.1 - - [29/Mar/2023 12:44:18] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:46:53,582 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:46:53,583 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:46:54,153 : 172.31.128.1 - - [29/Mar/2023 12:46:54] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:46:54,363 : 172.31.128.1 - - [29/Mar/2023 12:46:54] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:46:55,453 : 172.31.128.1 - - [29/Mar/2023 12:46:55] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:46:56,389 : 172.31.128.1 - - [29/Mar/2023 12:46:56] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:46:58,499 : 172.31.128.1 - - [29/Mar/2023 12:46:58] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:46:59,415 : 172.31.128.1 - - [29/Mar/2023 12:46:59] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:47:42,782 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:47:42,782 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:47:43,373 : 172.31.128.1 - - [29/Mar/2023 12:47:43] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:47:43,580 : 172.31.128.1 - - [29/Mar/2023 12:47:43] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:47:44,566 : 172.31.128.1 - - [29/Mar/2023 12:47:44] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:47:45,380 : 172.31.128.1 - - [29/Mar/2023 12:47:45] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:47:47,967 : 172.31.128.1 - - [29/Mar/2023 12:47:47] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:47:48,864 : 172.31.128.1 - - [29/Mar/2023 12:47:48] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:48:18,900 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:48:18,900 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:48:19,546 : 172.31.128.1 - - [29/Mar/2023 12:48:19] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:48:19,764 : 172.31.128.1 - - [29/Mar/2023 12:48:19] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:48:20,723 : 172.31.128.1 - - [29/Mar/2023 12:48:20] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:48:21,565 : 172.31.128.1 - - [29/Mar/2023 12:48:21] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:48:21,867 : 172.31.128.1 - - [29/Mar/2023 12:48:21] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:48:22,650 : 172.31.128.1 - - [29/Mar/2023 12:48:22] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:49:03,814 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:49:03,814 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:49:04,411 : 172.31.128.1 - - [29/Mar/2023 12:49:04] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:49:05,028 : 172.31.128.1 - - [29/Mar/2023 12:49:05] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:49:05,630 : 172.31.128.1 - - [29/Mar/2023 12:49:05] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:49:05,920 : 172.31.128.1 - - [29/Mar/2023 12:49:05] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:49:06,652 : 172.31.128.1 - - [29/Mar/2023 12:49:06] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:49:06,863 : 172.31.128.1 - - [29/Mar/2023 12:49:06] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:53:08,299 : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.41:5000 in _internal:224
+[INFO] - 2023-03-29 12:53:08,299 : [33mPress CTRL+C to quit[0m in _internal:224
+[INFO] - 2023-03-29 12:53:08,967 : 172.31.128.1 - - [29/Mar/2023 12:53:08] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:53:09,450 : 172.31.128.1 - - [29/Mar/2023 12:53:09] "[36mGET / HTTP/1.1[0m" 304 - in _internal:224
+[INFO] - 2023-03-29 12:53:10,158 : 172.31.128.1 - - [29/Mar/2023 12:53:10] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:53:11,008 : 172.31.128.1 - - [29/Mar/2023 12:53:11] "GET /summary HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:53:12,414 : 172.31.128.1 - - [29/Mar/2023 12:53:12] "GET / HTTP/1.1" 200 - in _internal:224
+[INFO] - 2023-03-29 12:53:13,320 : 172.31.128.1 - - [29/Mar/2023 12:53:13] "GET /summary HTTP/1.1" 200 - in _internal:224
